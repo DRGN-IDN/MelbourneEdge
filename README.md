@@ -1,4 +1,4 @@
-# MelbourneEdge
+# Melbourne Edge
 
 Melbourne Edge is a group project that aims to streamline the process for mental health assistance in Australia, offering a centralised application that can book on-demand GP consultations for medical assessments, generate mental health care plans, and book mental health appointments from the comfort of a mobile device and website.
 
