@@ -5,6 +5,6 @@ Melbourne Edge is a group project that aims to streamline the process for mental
 
 My responsibilities in this project include being Frontend development lead, coordinate four other members and assign work, coding client deliverables, creating robust form validation in React JS, and • coordinate with client on styling requirements
 
-You can my contributions with see our change log in every code in Front End Document 
+You can see my contributions in change log in every code in Front End Document 
 
 Thanks
