@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
+
+.jumbotron {
+  background-color: #2a3060;
+  position: relative;
+  width: 100%;
+  padding: 5px 5px;
+}
+
+.navbar {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+  width: 100%;
+  font-size: 25px;
+}
+
+.htitle {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: #f9dc0a;
+}
+
+.htitle2 {
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-color: #f9dc0a;
+}
+
+.form-container {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 5px;
+  padding-right: 30px;
+  padding-bottom: 80px;
+  padding-left: 40px;
+}
+
+.footer-container {
+  position: fixed;
+  padding: 18px;
+  bottom: 0;
+  width: 100%;
+  background-color: #2a3060;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.ftitle {
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+}
+
+.container-form {
+  padding-top: 0px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
+.btn3 {
+  background-color: #2a3060;
+  color: #f9dc0a;
+  font-family: "Montserrat", sans-serif;
+}
+.btn3:hover {
+  background-color: #69a8da;
+  color: #2a3060;
+}
+
+.error {
+  color: red;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.inputError {
+  border-color: red;
+}
+
+/* LUKE SCIBERRAS 213085878 02/01/2020 4:00PM - 6:00PM || modal styling */
+
+/*react-modal overlay (the modal container)*/
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 350ms ease-in-out;
+  max-height: auto;
+  max-width: auto;
+}
+.ReactModal__Body--open,
+.ReactModal__Html--open {
+  overflow: hidden;
+}
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+/*react-modal content*/
+.ReactModal__Content {
+  position: relative;
+  z-index: 99;
+  display: block;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 97, 0.4);
+  overflow: auto;
+  box-sizing: border-box;
+}
+/*background image*/
+
+/*cancel button*/
+.btn4 {
+  background-color: #2a3060;
+  color: #f9dc0a;
+  font-family: "Montserrat", sans-serif;
+}
+.btn4:hover {
+  background-color: #69a8da;
+  color: #2a3060;
+}
+/*contact list*/
+ul {
+  text-align: center;
+}
+.modalText {
+  text-align: justify;
+  font-size: 20px;
+}
+
+/* ACHMAD MUSTAFA KEMAL 219374683 04/01/2020 4:00PM - 6:00PM || Addition CSS for modal */
+
+.img-responsive {
+  position: relative;
+  height: auto;
+  left: 10px;
+  right: 0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.btn5 {
+  background-color: #2a3060;
+  color: #f9dc0a;
+  font-size: 20px;
+  padding: 7px 30px;
+  font-family: "Montserrat", sans-serif;
+  float: right;
+}
+.btn5:hover {
+  background-color: #69a8da;
+  color: #2a3060;
+}
+
+/*  Yang Xu 217613282 06/01/2021 12:00 - 21:00PM || creating part of homepage css */
+
+.btn-homepage {
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #2a3060;
+  color: #69a8da;
+  transition: all 0.3s ease-out;
+  padding: 12px 26px;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-homepage:hover {
+  background-color: #69a8da;
+  color: #2a3060;
+}
+
+.Jumbotron-homepage {
+  background: url("homepageimages/main.jpg") center center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.Jumbotron-homepage > h1 {
+  color: #fff;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Jumbotron-homepage > p {
+  margin-top: 8px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.contactus {
+  background: #2a3060;
+}
+.contactus {
+  color: #fff;
+}
+.text-homepage {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.img-responsive-homepage {
+  position: relative;
+  height: auto;
+  left: 10px;
+  right: 0;
+  bottom: 20px;
+  margin: 0 auto;
+  width: 100%;
+}
