@@ -4,4 +4,4 @@ To Run the code:
 
 2. Install all depencies
 
-3. Run with type (npm run dev)
+3. Run with type (npm run dev) in terminal
